@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp9"
+        mc:Ignorable="d"
+        Title="Test" Height="500" Width="500">
+    <!--// track-->
+    <Grid   Margin="5">
+        
+        <StackPanel  Margin="5">
+            <Label  >Введите имя</Label>
+            <TextBox Name="textBoxName"
+                     Margin="5"
+                     ></TextBox>
+            <Button
+                Margin="5"
+                Name="buttonGo" >Нажмите на кнопку</Button>
+
+            <Label Name="labelInfo" ></Label>
+        </StackPanel>
+
+    </Grid>
+</Window>
